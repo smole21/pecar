@@ -284,6 +284,20 @@ select {
 	animation-duration: 1s;
 	animation-delay: 1s;
 }
+@media (max-width:380px){
+
+	.about_h{
+		display: none;
+	}
+	.lozung *{
+		animation-name:none
+	}
+	.lozung .h_button {
+		margin-top: 80px;
+	}
+
+}
+
 .lozung .h_button {
 	animation-name: right_in;
 	animation-duration: 1s;
@@ -516,6 +530,13 @@ h1{
 	transition: all ease-in-out 0.5s;
 	opacity: 0;
 }
+@media (max-width:560px){
+	.work{
+		display: none;
+	}
+
+}
+
 .work_text._active{
 	transform: translate(0px, 0px);
 	transition: all ease-in-out 0.5s;
@@ -552,6 +573,12 @@ h1{
 .why_us {
 	text-align: center;
 	margin-top: 100px;
+}
+@media (max-width:560px){
+	.why_us{
+		margin-top: 0px;
+	}
+	
 }
 .why_us_items {
 	display: flex;
@@ -663,6 +690,11 @@ h3{
 		align-items: center;
 	}
 
+}
+@media (max-width:670px){
+	.order_now{
+		padding-top: 0px;
+	}
 }
 .order_form .form_t, .form_f{
 	background: transparent;
